@@ -1,0 +1,9 @@
+# folders
+.vscode/
+__pycache__/
+**/*/__pycache__/
+.pytest_cache/
+
+# files
+.env.yaml
+conf.py

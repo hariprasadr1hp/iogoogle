@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "iogoogle"
+version = "0.1.0"
+description = "google api wrapper"
+authors = ["hariprasadr1hp <hariprasadr1hp@tutanota.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^1.5.3"
+google-cloud-bigquery = "^3.7.0"
+google-api-python-client = "^2.81.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.2"
+black = "^23.1.0"
+mypy = "^1.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
